@@ -6,6 +6,10 @@
   font-size: 30px !important;
 }
 
+.navbar-nav li a {
+  font-family: "Poppins", sans-serif;
+}
+
 .carousel-item::before {
   content: "";
   display: block;
@@ -21,4 +25,10 @@
   font-size: 5vw;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+}
+
+.popular-courses > h2 {
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
