@@ -79,3 +79,11 @@
 p {
   font-family: var(--font);
 }
+
+.faq h2 {
+  font-family: var(--font);
+}
+
+.accordion-body {
+  font-family: var(--font);
+}
