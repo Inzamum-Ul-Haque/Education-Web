@@ -4,6 +4,10 @@
   --font: "Poppins", sans-serif;
 }
 
+button {
+  font-family: var(--font) !important;
+}
+
 .navbar-brand {
   font-family: var(--font);
   font-weight: 600;
@@ -35,6 +39,10 @@
   font-size: 45px;
   font-family: var(--font);
   font-weight: 600;
+}
+
+.small-device strong {
+  color: #289bde;
 }
 
 .card-title {
@@ -82,6 +90,15 @@ p {
 
 .students h2 {
   font-weight: 600;
+}
+
+.speeches {
+  border: 1px solid #e8e8e8;
+}
+
+.stars i {
+  color: #fbbf24;
+  font-size: 15px;
 }
 
 .faq h2 {
