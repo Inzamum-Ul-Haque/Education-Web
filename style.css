@@ -32,3 +32,19 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.card-text {
+  font-family: "Poppins", sans-serif;
+  color: #777777;
+}
+
+.card-text strong {
+  font-weight: 600;
+  color: #289bde;
+}
