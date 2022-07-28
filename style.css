@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+:root {
+  --font: "Poppins", sans-serif;
+}
+
 .navbar-brand {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font);
   font-weight: 600;
   font-size: 30px !important;
 }
 
 .navbar-nav li a {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font);
 }
 
 .carousel-item::before {
@@ -24,23 +28,23 @@
 .carousel-caption h2 {
   font-size: 5vw;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font);
 }
 
 .popular-courses h2 {
   font-size: 45px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font);
   font-weight: 600;
 }
 
 .card-title {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font);
   font-weight: 600;
   font-size: 22px;
 }
 
 .card-text {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font);
   color: #777777;
 }
 
@@ -56,17 +60,22 @@
 
 .text h4 {
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font);
   font-size: 40px;
   color: white;
 }
 
 .text p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font);
   color: white;
 }
 
 .register-btn button {
   background-color: white;
   color: #289bde;
+}
+
+.students h2,
+p {
+  font-family: var(--font);
 }
