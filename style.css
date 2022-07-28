@@ -92,3 +92,28 @@ p {
 .accordion-body {
   font-family: var(--font);
 }
+
+.companies .text-heading {
+  font-family: var(--font);
+  font-weight: 600;
+}
+
+footer {
+  height: 60vh;
+  background-color: black;
+  color: white;
+}
+
+footer h2 {
+  font-family: var(--font);
+  font-weight: 600;
+}
+
+footer p {
+  color: #e8e8e8;
+}
+
+footer a i {
+  color: white;
+  font-size: 20px;
+}
