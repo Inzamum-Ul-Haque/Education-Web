@@ -80,8 +80,13 @@ p {
   font-family: var(--font);
 }
 
+.students h2 {
+  font-weight: 600;
+}
+
 .faq h2 {
   font-family: var(--font);
+  font-weight: 600;
 }
 
 .accordion-body {
